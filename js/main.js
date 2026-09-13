@@ -11,14 +11,14 @@
   }
 
   function showSection(id, updateHash) {
-    var fullId = id || 'sobre';
+    var fullId = id || 'about';
     var parts = fullId.split('/');
     var topId = parts[0];
 
     if (validIds.indexOf(topId) === -1) {
-      topId = 'sobre';
-      fullId = 'sobre';
-      parts = ['sobre'];
+      topId = 'about';
+      fullId = 'about';
+      parts = ['about'];
     }
 
     panels.forEach(function (p) {
@@ -75,7 +75,7 @@
     showSection(location.hash.replace('#', ''), false);
   });
 
-  var initial = (location.hash || '#sobre').replace('#', '');
+  var initial = (location.hash || '#about').replace('#', '');
   showSection(initial, false);
 })();
 

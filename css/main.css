@@ -184,6 +184,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 .content {
   margin-left: var(--sidebar-w);
   flex: 1;
+  min-width: 0;
   padding: 3.5rem 4rem 5rem;
   max-width: 900px;
 }
