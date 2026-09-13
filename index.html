@@ -1,489 +1,441 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Isadora Salles &mdash; Personal Space</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
-	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
-	<meta name="author" content="freehtml5.co" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Isadora Salles</title>
+<meta name="description" content="Isadora Salles — MSc student in Computer Science at UFMG. Research, publications and a bit about life outside the lab.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
 
-	<!-- 
-	//////////////////////////////////////////////////////
+<div class="app">
 
-	FREE HTML5 TEMPLATE 
-	DESIGNED & DEVELOPED by FreeHTML5.co
-		
-	Website: 		http://freehtml5.co/
-	Email: 			info@freehtml5.co
-	Twitter: 		http://twitter.com/fh5co
-	Facebook: 		https://www.facebook.com/fh5co
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-top">
+      <img src="images/user1.jpeg" alt="Isadora Salles" class="avatar">
+      <h1 class="name">Isadora Salles</h1>
+      <p class="tagline">MSc in Computer Science<br>Data Scientist at Kunumi</p>
+    </div>
 
-	//////////////////////////////////////////////////////
-	 -->
+    <nav class="nav" id="nav">
+      <button class="nav-link" data-target="sobre">About</button>
+      <button class="nav-link" data-target="educacao">Education</button>
+      <button class="nav-link" data-target="experiencia">Experience</button>
+      <button class="nav-link" data-target="publicacoes">Research</button>
+      <button class="nav-link" data-target="hobbies">Outside Work</button>
+      <button class="nav-link" data-target="contato">Contact</button>
+    </nav>
 
-  	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
+    <div class="sidebar-social">
+      <a class="icon-badge" href="https://github.com/isadorasalles" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg></a>
+      <a class="icon-badge" href="https://www.linkedin.com/in/isadora-salles-b8942016b/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M0 1.15C0 .51.53 0 1.18 0h13.65C15.47 0 16 .51 16 1.15v13.7c0 .64-.53 1.15-1.18 1.15H1.18C.53 16 0 15.49 0 14.85V1.15zM4.94 13.4V6.17H2.54v7.23h2.4zM3.74 5.19c.84 0 1.36-.55 1.36-1.25-.02-.71-.52-1.25-1.34-1.25-.82 0-1.36.54-1.36 1.25 0 .7.52 1.25 1.33 1.25h.01zM13.55 13.4V9.35c0-2.22-1.19-3.25-2.77-3.25-1.28 0-1.85.7-2.16 1.19v-1.02h-2.4c.03.68 0 7.23 0 7.23h2.4V9.36c0-.22.02-.43.08-.59.17-.43.57-.88 1.24-.88.87 0 1.22.66 1.22 1.63v3.88h2.39z"/></svg></a>
+      <a class="icon-badge" href="https://scholar.google.com/citations?user=NpixF2MAAAAJ&hl=en" target="_blank" rel="noopener" aria-label="Google Scholar"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3zm0 13.5L4.24 12 12 7.5l7.76 4.5L12 16.5zM5 13.18v4.34c0 1.1 3.14 2.48 7 2.48s7-1.38 7-2.48v-4.34l-7 3.82-7-3.82z"/></svg></a>
+    </div>
+  </aside>
 
-	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
-	
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
+  <div class="overlay" id="overlay"></div>
 
-	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
+  <button class="menu-toggle" id="menuToggle" aria-label="Open menu"><span></span></button>
 
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
+  <main class="content" id="content">
 
-	</head>
-	<body>
-		
-	<div class="fh5co-loader"></div>
-	
-	<div id="page">	
-	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image:url(images/cover_bg_3.jpg);" data-stellar-background-ratio="0.5">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center">
-					<div class="display-t js-fullheight">
-						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
-							<div class="profile-thumb" style="background: url(images/user1.jpeg);"></div>
-							<h1>Isadora Salles</h1>
-							<h3><span>MSc Student in Computer Science</span></h3>
-							<p>
-								<ul class="fh5co-social-icons">
-									<!-- <li><a href="#"><i class="icon-twitter2"></i></a></li> -->
-									<!-- <li><a href="#"><i class="icon-facebook2"></i></a></li> -->
-									<li><a href="https://github.com/isadorasalles"><i class="icon-github2"></i></a></li>
-									<li><a href="https://www.linkedin.com/in/isadora-alves-de-salles-b8942016b/"><i class="icon-linkedin2"></i></a></li>
-									<li><a href="https://scholar.google.com/citations?user=NpixF2MAAAAJ&hl=en"> <span class="icon icon--google-scholar"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35" height="35" viewBox="0,0,256,256">
-										<g fill="#fefefe" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M25,3c-12.15,0 -22,9.85 -22,22c0,12.15 9.85,22 22,22c12.15,0 22,-9.85 22,-22c0,-12.15 -9.85,-22 -22,-22zM21,11h17l-1.01953,0.88086c0,0.04 0.01953,0.07914 0.01953,0.11914v5.2793c0.6,0.34 1,0.9807 1,1.7207v6c0,1.1 -0.9,2 -2,2c-1.1,0 -2,-0.9 -2,-2v-6c0,-0.74 0.4,-1.3807 1,-1.7207v-3.70898l-3.58984,3.08008c0.35,0.7 0.58984,1.54984 0.58984,2.58984c0,2.72 -1.5193,4.06953 -3.0293,5.26953c-0.47,0.48 -1.02148,1.00055 -1.02148,1.81055c0,0.8 0.55117,1.25031 0.95117,1.57031l1.28906,1.0293c1.59,1.36 3.03125,2.61062 3.03125,5.14063c0,3.45 -3.29023,6.93945 -9.49023,6.93945c-5.23,0 -7.75,-2.53 -7.75,-5.25c0,-1.32 0.6493,-3.19047 2.7793,-4.48047c2.23,-1.39 5.26063,-1.57945 6.89063,-1.68945c-0.51,-0.66 -1.08984,-1.35 -1.08984,-2.5c0,-0.61 0.18914,-0.97969 0.36914,-1.42969c-0.4,0.04 -0.80016,0.08008 -1.16016,0.08008c-3.8,0 -5.97023,-2.88047 -5.99023,-5.73047h-6.7793zM24.26953,14.24023c-0.93,0 -1.93953,0.4707 -2.51953,1.2207c-0.61,0.76 -0.80078,1.74922 -0.80078,2.69922c0,2.46 1.42172,6.53906 4.51172,6.53906c0.91,0 1.87898,-0.4393 2.45898,-1.0293c0.82,-0.85 0.90039,-2.01992 0.90039,-2.66992c0,-2.65 -1.55078,-6.75977 -4.55078,-6.75977zM26.03906,30.60938c-0.32,0 -2.2693,0.06984 -3.7793,0.58984c-0.8,0.3 -3.09961,1.17125 -3.09961,3.78125c0,2.61 2.47984,4.48047 6.33984,4.48047c3.47,0 5.30078,-1.7007 5.30078,-3.9707c0,-1.87 -1.17992,-2.85984 -3.91992,-4.83984c-0.29,-0.04 -0.4718,-0.04102 -0.8418,-0.04102z"></path></g></g>
-										</svg></span></a></li>
-								</ul>
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header>
+    <!-- ============ ABOUT ============ -->
+    <section id="sobre" class="panel">
+      <p class="eyebrow">About</p>
+      <h2 class="section-heading">Hello there!</h2>
+      <p class="section-sub">Kunumi Institute · Federal University of Minas Gerais (UFMG)</p>
 
-	<div id="fh5co-about" class="animate-box">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>About Me</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12">
-					<h2>Hello There!</h2>
-					<p>I am currently enrolled as a Master of Science student in the Social Computing Laboratory (LoCuS) at the Federal University of Minas Gerais (UFMG), where I am fortunate to be under the guidance of Prof. Doc. Fabrício Benevenuto.</p>
-					<p>My current research interests are in Computational Social Science, Data Science, Machine Learning and AI for Social Good.</p>
-					<p>If you want, you can reach me by <a href="mailto:isadora.alves.salles@gmail.com">email</a>.</p>
-					<p>
-						<ul class="fh5co-social-icons">
-							<li><a href="https://github.com/isadorasalles"><i class="icon-github2"></i></a></li>
-							<li><a href="https://www.linkedin.com/in/isadora-alves-de-salles-b8942016b/"><i class="icon-linkedin2"></i></a></li>
-							<li><a href="https://scholar.google.com/citations?user=NpixF2MAAAAJ&hl=en"> <span class="icon icon--google-scholar"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0,0,256,256">
-								<g fill="#fefefe" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M25,3c-12.15,0 -22,9.85 -22,22c0,12.15 9.85,22 22,22c12.15,0 22,-9.85 22,-22c0,-12.15 -9.85,-22 -22,-22zM21,11h17l-1.01953,0.88086c0,0.04 0.01953,0.07914 0.01953,0.11914v5.2793c0.6,0.34 1,0.9807 1,1.7207v6c0,1.1 -0.9,2 -2,2c-1.1,0 -2,-0.9 -2,-2v-6c0,-0.74 0.4,-1.3807 1,-1.7207v-3.70898l-3.58984,3.08008c0.35,0.7 0.58984,1.54984 0.58984,2.58984c0,2.72 -1.5193,4.06953 -3.0293,5.26953c-0.47,0.48 -1.02148,1.00055 -1.02148,1.81055c0,0.8 0.55117,1.25031 0.95117,1.57031l1.28906,1.0293c1.59,1.36 3.03125,2.61062 3.03125,5.14063c0,3.45 -3.29023,6.93945 -9.49023,6.93945c-5.23,0 -7.75,-2.53 -7.75,-5.25c0,-1.32 0.6493,-3.19047 2.7793,-4.48047c2.23,-1.39 5.26063,-1.57945 6.89063,-1.68945c-0.51,-0.66 -1.08984,-1.35 -1.08984,-2.5c0,-0.61 0.18914,-0.97969 0.36914,-1.42969c-0.4,0.04 -0.80016,0.08008 -1.16016,0.08008c-3.8,0 -5.97023,-2.88047 -5.99023,-5.73047h-6.7793zM24.26953,14.24023c-0.93,0 -1.93953,0.4707 -2.51953,1.2207c-0.61,0.76 -0.80078,1.74922 -0.80078,2.69922c0,2.46 1.42172,6.53906 4.51172,6.53906c0.91,0 1.87898,-0.4393 2.45898,-1.0293c0.82,-0.85 0.90039,-2.01992 0.90039,-2.66992c0,-2.65 -1.55078,-6.75977 -4.55078,-6.75977zM26.03906,30.60938c-0.32,0 -2.2693,0.06984 -3.7793,0.58984c-0.8,0.3 -3.09961,1.17125 -3.09961,3.78125c0,2.61 2.47984,4.48047 6.33984,4.48047c3.47,0 5.30078,-1.7007 5.30078,-3.9707c0,-1.87 -1.17992,-2.85984 -3.91992,-4.83984c-0.29,-0.04 -0.4718,-0.04102 -0.8418,-0.04102z"></path></g></g>
-								</svg></span></a></li>
-						</ul>
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
+      <div class="card plain">
+        <p>I hold a Master of Science degree in Computer Science from the <a href="https://www.ufmg.br/international/about-the-ufmg/" target="_blank" rel="noopener">Federal University of Minas Gerais (UFMG)</a>, a public university in Brazil, completed in November 2025 at the Social Computing Laboratory (LoCuS), under the guidance of <a href="https://homepages.dcc.ufmg.br/~fabricio/" target="_blank" rel="noopener">Prof. Doc. Fabrício Benevenuto</a>.</p>
+        <p>I currently work as a Data Scientist at <a href="https://www.kunumi.com/br" target="_blank" rel="noopener">Kunumi</a>, applying machine learning and data science to real-world problems.</p>
+        <p>My research interests remain in Computational Social Science, Machine Learning and AI for Social Good.</p>
+        <p>If you want, you can reach me by <a href="mailto:isadora.alves.salles@gmail.com">email</a>, or check the <a href="#contato" data-goto="contato">Contact</a> section.</p>
+      </div>
 
-	<div id="fh5co-resume" class="fh5co-bg-color">
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>My Resume</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 col-md-offset-0">
-					<ul class="timeline">
-						<li class="timeline-heading text-center animate-box">
-							<div><h3>Education</h3></div>
-						</li>
-						<li class="animate-box timeline-unverted">
-							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">MSc in Computer Science</h3>
-									<span class="company">Federal University of Minas Gerais (UFMG) under the supervision of Prof. Doc. Fabrício Benevenuto.</span>
-									<span class="company">Mar 2022 - Current</span>
-								</div>
-								<!-- <div class="timeline-body">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-								</div> -->
-							</div>
-						</li>
-						<li class="timeline-inverted animate-box">
-							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">BSc in Computer Science</h3>
-									<span class="company">Federal University of Minas Gerais (UFMG).</span>
-									<span class="company">Aug 2017 - Feb 2022</span>
-								</div>
-								<!-- <div class="timeline-body">
-									<p>Far far away, behind the word mountains, they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div> -->
-							</div>
-						</li>
+      <div class="btn-row">
+        <a class="btn" href="CV_Isadora.pdf" target="_blank" rel="nofollow noopener">Download CV</a>
+      </div>
 
-						<br>
-						<li class="timeline-heading text-center animate-box">
-							<div><h3>Work and Academic Experience</h3></div>
-						</li>
-						<li class="animate-box timeline-unverted">
-							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">Research Intern</h3>
-									<span class="company"> Swiss Federal Institute of Technology Lausanne (EPFL)</span>
-									<span class="company">Jul 2023 - Sept 2023</span>
-								</div>
-								<div class="timeline-body">
-									<p>I collaborated with the Machine Learning for Education (ML4ED) laboratory on a project that centered around enhancing the explainability of clustering. In this project, we leveraged student data to cluster their behaviors effectively. Our approach involved employing a discriminator neural network with a rigorous sparsity criterion to dynamically select a subset of crucial features for each student. Subsequently, we conducted experiments using clustering techniques on this reduced feature set and evaluated the interpretability of the resulting clusters.</p>
-								</div>
-							</div>
-						</li>
-						<li class="timeline-inverted animate-box">
-							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">Research Intern</h3>
-									<span class="company">Max Planck Institute for Software Systems (MPI-SWS)</span>
-									<span class="company">Aug 2022 - Jan 2023</span>
-								</div>
-								<div class="timeline-body">
-									<p>I conducted research in the field of Reinforcement Learning, specifically focused on detecting misinformation. This research was carried out in collaboration with the Machine Teaching Group at the Max Planck Institute for Software Systems (MPI-SWS) under the guidance of Adish Singla.</p>
-								</div>
-							</div>
-						</li>
-						<li class="animate-box timeline-unverted">
-							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">Undergraduate Research Assistant</h3>
-									<span class="company">Federal University of Minas Gerais (UFMG)</span>
-									<span class="company">Jan 2021- Fev 2022</span>
-								</div>
-								<div class="timeline-body">
-									<p>Research in Explainable Machine Learning for Fake News Detection and Polarization on Social Media under professor Fabrício Benevenuto.</p>
-								</div>
-							</div>
-						</li>
-						<li class="timeline-inverted animate-box">
-							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">Software Engineer Intern</h3>
-									<span class="company">Mobile Solution Technology</span>
-									<span class="company">Oct 2020- Sept 2021</span>
-								</div>
-								<div class="timeline-body">
-									<p>I have been involved in the development of optical character recognition (OCR) software using computer vision techniques.</p>
-								</div>
-							</div>
-						</li>
-						<li class="animate-box timeline-unverted">
-							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">Undergraduate Research Assistant</h3>
-									<span class="company">Federal University of Minas Gerais (UFMG)</span>
-									<span class="company">Apr 2018 - Jan 2021</span>
-								</div>
-								<div class="timeline-body">
-									<p>I have gained experience in the field of Data Science and Machine Learning under the guidance of Professor Gisele Lobo Pappa. During this time, I have had the opportunity to work on projects in collaboration with the Brazil Ministry of Health and the Public Ministry of Minas Gerais.</p>
-								</div>
-							</div>
-						</li>
-						<br>
-						<li class="timeline-heading text-center animate-box">
-							<div><h3>Publications</h3></div>
-						</li>
-						<li class="timeline-inverted animate-box">
-							<div class="timeline-badge"><i class="icon-news"></i></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">Interpret3C: Interpretable Student Clustering Through Individualized Feature Selection</h3>
-									<span class="company">I. Salles, P. Mejia-Domenzain, V. Swamy, J. Blackwell, T. Käser.</span>
-									<span class="company">International Conference on Artificial Intelligence in Education, 2024.</span>
-									<span><a href="https://doi.org/10.1007/978-3-031-64315-6_35">Read More<i class="icon-arrow-right22"></i></a></span>
-								</div>
-								
-							</div>
-						</li>
-						<li class="animate-box timeline-unverted">
-							<div class="timeline-badge"><i class="icon-news"></i></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">Detecção Automática de Desinformação Relacionada à Covid-19 no Brasil</h3>
-									<span class="company">JMM. Couto, I. Salles, B. Pimenta, S. Assis, L. Araújo, JCS. Reis, F. Benevenuto.</span>
-									<span class="company">Anais do XXXVII Simpósio Brasileiro de Bancos de Dados, 2022.</span>
-									<span><a href="https://doi.org/10.5753/sbbd.2022.224326">Read More<i class="icon-arrow-right22"></i></a></span>
-								</div>
-								
-							</div>
-						</li>
-						<li class="timeline-inverted animate-box">
-							<div class="timeline-badge"><i class="icon-news"></i></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">A Comprehensive Dataset of Brazilian Fact-Checking Stories</h3>
-									<span class="company">I. Marques, I. Salles, J. MM Couto, B. C Pimenta, S. Assis, J. CS Reis, A. PC da Silva, J. M de Almeida, F. Benevenuto.</span>
-									<span class="company">Journal of Information and Data Management, 2022.</span>
-									<span><a href="https://sol.sbc.org.br/journals/index.php/jidm/article/view/2354">Read More<i class="icon-arrow-right22"></i></a></span>
-								</div>
-								
-							</div>
-						</li>
-						<li class="animate-box timeline-unverted">
-							<div class="timeline-badge"><i class="icon-news"></i></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">Characterizing Sponsored Content in Facebook and Instagram</h3>
-									<span class="company">E. A. Martins, I. Salles, F. Benevenuto, O. Goussevskaia.</span>
-									<span class="company">Proceedings of the 33rd ACM Conference on Hypertext and Social Media, 52-63, 2022.</span>
-									<span><a href="https://dl.acm.org/doi/abs/10.1145/3511095.3531289">Read More<i class="icon-arrow-right22"></i></a></span>
-								</div>
-							</div>
-						</li>
-						<li class="timeline-inverted animate-box">
-							<div class="timeline-badge"><i class="icon-news"></i></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">Viés de Gênero em Biografias da Wikipédia em Português</h3>
-									<span class="company">I. Salles, G. L. Pappa.</span>
-									<span class="company">Proceedings of the 10th Brazilian Workshop on Social Network Analysis and Mining (BRASNAM), Porto Alegre, SBC, 2021.</span>
-									<span><a href="https://sol.sbc.org.br/index.php/brasnam/article/view/16142">Read More<i class="icon-arrow-right22"></i></a></>
-								</div>
-							</div>
-						</li>
-			    	</ul>
-				</div>
-			</div>
-		</div>
+      <div class="about-gallery-scroll">
+        <button data-full="images/about/about-defense-cake.jpg" data-caption="Master's defense — November 7, 2025"><img src="images/about/about-defense-cake.jpg" alt="Cake celebrating my Master's degree" loading="lazy"></button>
+        <button data-full="images/about/about-defense-flowers.jpg" data-caption="Master's defense — November 7, 2025"><img src="images/about/about-defense-flowers.jpg" alt="Holding flowers after my Master's defense" loading="lazy"></button>
+        <button data-full="images/about/about-talk.jpg" data-caption="Master's defense — November 7, 2025"><img src="images/about/about-talk.jpg" alt="Giving a talk at my Master's defense" loading="lazy"></button>
+        <button data-full="images/about/about-defense-presenting.jpg" data-caption="Master's defense — November 7, 2025"><img src="images/about/about-defense-presenting.jpg" alt="Presenting my Master's defense" loading="lazy"></button>
+        <button data-full="images/about/about-poster-hatebrxplain.jpg" data-caption="COLING — January 2025, Abu Dhabi, UAE — presenting the paper “HateBRXplain: A Benchmark Dataset with Human-Annotated Rationales for Explainable Hate Speech Detection in Brazilian Portuguese”"><img src="images/about/about-poster-hatebrxplain.jpg" alt="Presenting the HateBRXplain poster at COLING 2025" loading="lazy"></button>
+        <button data-full="images/about/about-conf-abudhabi.jpg" data-caption="COLING — January 2025, Abu Dhabi, UAE — presenting the paper “HateBRXplain: A Benchmark Dataset with Human-Annotated Rationales for Explainable Hate Speech Detection in Brazilian Portuguese”"><img src="images/about/about-conf-abudhabi.jpg" alt="At COLING 2025, Abu Dhabi" loading="lazy"></button>
+        <button data-full="images/about/about-badge-coling.jpg" data-caption="COLING — January 2025, Abu Dhabi, UAE — presenting the paper “HateBRXplain: A Benchmark Dataset with Human-Annotated Rationales for Explainable Hate Speech Detection in Brazilian Portuguese”"><img src="images/about/about-badge-coling.jpg" alt="COLING 2025 Abu Dhabi badge" loading="lazy"></button>
+        <button data-full="images/about/about-award-group.jpg" data-caption="AIED — July 2024, Recife, Brazil — Best Late Breaking Results Award for “Interpret3C: Interpretable Student Clustering Through Individualized Feature Selection”"><img src="images/about/about-award-group.jpg" alt="Receiving the Best Late Breaking Results Award at AIED 2024" loading="lazy"></button>
+        <button data-full="images/about/about-poster-interpret3c.jpg" data-caption="AIED — July 2024, Recife, Brazil — presenting the paper “Interpret3C: Interpretable Student Clustering Through Individualized Feature Selection”"><img src="images/about/about-poster-interpret3c.jpg" alt="Presenting the Interpret3C poster at AIED 2024" loading="lazy"></button>
+        <button data-full="images/about/about-badge-aied.jpg" data-caption="AIED — July 2024, Recife, Brazil — presenting the paper “Interpret3C: Interpretable Student Clustering Through Individualized Feature Selection”"><img src="images/about/about-badge-aied.jpg" alt="AIED 2024 Recife attendee badge" loading="lazy"></button>
+      </div>
+    </section>
 
-		<div 
-			class="button_cont" align="center"><a class="example_a" href="CV_Isadora.pdf" target="_blank" rel="nofollow noopener">Download CV</a>
-		</div>
-	</div>
-	
+    <!-- ============ EDUCATION ============ -->
+    <section id="educacao" class="panel">
+      <p class="eyebrow">Education</p>
+      <h2 class="section-heading">Education</h2>
+      <p class="section-sub">Academic background</p>
 
-	
-	</div> 
+      <div class="card">
+        <h3>MSc in Computer Science</h3>
+        <span class="meta">Federal University of Minas Gerais (UFMG) — under the supervision of Prof. Doc. Fabrício Benevenuto</span>
+        <span class="meta">Mar 2022 – Nov 2025</span>
+      </div>
 
+      <div class="card">
+        <h3>BSc in Computer Science</h3>
+        <span class="meta">Federal University of Minas Gerais (UFMG)</span>
+        <span class="meta">Aug 2017 – Feb 2022</span>
+      </div>
 
-	<!-- <div id="fh5co-work" class="fh5co-bg-dark">
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Work</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/portfolio-1.jpg);">
-						<div class="desc">
-							<h3>Project Name</h3>
-							<span>Illustration</span>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/portfolio-2.jpg);">
-						<div class="desc">
-							<h3>Project Name</h3>
-							<span>Brading</span>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/portfolio-3.jpg);">
-						<div class="desc">
-							<h3>Project Name</h3>
-							<span>Illustration</span>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/portfolio-4.jpg);">
-						<div class="desc">
-							<h3>Project Name</h3>
-							<span>Design</span>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/portfolio-5.jpg);">
-						<div class="desc">
-							<h3>Project Name</h3>
-							<span>Website</span>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/portfolio-6.jpg);">
-						<div class="desc">
-							<h3>Project Name</h3>
-							<span>Illustration</span>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/portfolio-7.jpg);">
-						<div class="desc">
-							<h3>Project Name</h3>
-							<span>Brading</span>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/portfolio-8.jpg);">
-						<div class="desc">
-							<h3>Project Name</h3>
-							<span>Illustration</span>
-						</div>
-					</a>
-				</div>
-			</div>
-		</div>
-	</div> -->
+      <div class="card">
+        <h3>Electronics Technician</h3>
+        <span class="meta">Federal Center for Technological Education of Minas Gerais (CEFET-MG)</span>
+        <span class="meta">High School + technical course in Electronics</span>
+        <span class="meta">2014 – 2016</span>
+      </div>
+    </section>
 
-	<!-- <div id="fh5co-blog">
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Publications</h2>
-					
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-4">
-					<div class="fh5co-blog animate-box">
-						<div class="blog-text">
-							<h3><a href="#">Viés de Gênero em Biografias da Wikipédia em Português</a></h3>
-							<p>I. Salles, G. L. Pappa.</p>
-							<p>Proceedings of the 10th Brazilian Workshop on Social Network Analysis and Mining (BRASNAM), Porto Alegre, SBC, 2021.</p>
-							<ul class="stuff">
-								<li><a href="https://sol.sbc.org.br/index.php/brasnam/article/view/16142">Read More<i class="icon-arrow-right22"></i></a></li>
-							</ul>
-						</div> 
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="fh5co-blog animate-box">
-						<div class="blog-text">
-							<h3><a href="#">Characterizing Sponsored Content in Facebook and Instagram</a></h3>
-							<p>E. A. Martins, I. Salles, F. Benevenuto, O. Goussevskaia</p>
-							<p>Proceedings of the 33rd ACM Conference on Hypertext and Social Media, 52-63, 2022.</p>
-							<ul class="stuff">
-								<li><a href="https://dl.acm.org/doi/abs/10.1145/3511095.3531289">Read More<i class="icon-arrow-right22"></i></a></li>
-							</ul>
-						</div> 
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="fh5co-blog animate-box">
-						<div class="blog-text">
-							<h3><a href="#">A Comprehensive Dataset of Brazilian Fact-Checking Stories</a></h3>
-							<p>I. Marques, I. Salles, J. MM Couto, B. C Pimenta, S. Assis, J. CS Reis, A. PC da Silva, J. M de Almeida, F. Benevenuto</p>
-							<p>Journal of Information and Data Management, 2022.</p>
-							<ul class="stuff">
-								<li><a href="https://sol.sbc.org.br/journals/index.php/jidm/article/view/2354">Read More<i class="icon-arrow-right22"></i></a></li>
-							</ul>
-						</div> 
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="fh5co-blog animate-box">
-						<div class="blog-text">
-							<h3><a href="#">Detecção Automática de Desinformação Relacionada à Covid-19 no Brasil</a></h3>
-							<p>JMM. Couto, I. Salles, B. Pimenta, S. Assis, L. Araújo, JCS. Reis, F. Benevenuto</p>
-							<p>Anais do XXXVII Simpósio Brasileiro de Bancos de Dados, 2022.</p>
-							<ul class="stuff">
-								<li><a href="https://doi.org/10.5753/sbbd.2022.224326">Read More<i class="icon-arrow-right22"></i></a></li>
-							</ul>
-						</div> 
-					</div>
-				</div>
-			</div>
-		</div>
-	</div> -->
-	
-	<!-- <div id="fh5co-started" class="fh5co-bg-dark">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Contact Me!</h2>
-					<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
-					<p><a href="#" class="btn btn-default btn-lg">Contact me</a></p>
-				</div>
-			</div>
-		</div>
-	</div> -->
+    <!-- ============ EXPERIENCE ============ -->
+    <section id="experiencia" class="panel">
+      <p class="eyebrow">Experience</p>
+      <h2 class="section-heading">Work &amp; Academic Experience</h2>
+      <p class="section-sub">Research and industry positions</p>
 
-	<div id="fh5co-footer">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<p>&copy; 2022 Isadora Salles. <br>Design <a href="http://freehtml5.co" target="_blank">FreeHTML5.co</a> </p> <!-- Demo Images: <a href="http://unsplash.com" target="_blank">Unsplash</a></p> -->
-				</div>
-			</div>
-		</div>
-	</div>
+      <div class="card">
+        <h3>Research Intern</h3>
+        <span class="meta">Swiss Federal Institute of Technology Lausanne (EPFL)</span>
+        <span class="meta">Jul 2023 – Sept 2023</span>
+        <p>I collaborated with the Machine Learning for Education (ML4ED) laboratory on a project that centered around enhancing the explainability of clustering. In this project, we leveraged student data to cluster their behaviors effectively. Our approach involved employing a discriminator neural network with a rigorous sparsity criterion to dynamically select a subset of crucial features for each student. Subsequently, we conducted experiments using clustering techniques on this reduced feature set and evaluated the interpretability of the resulting clusters.</p>
+      </div>
 
-	<div class="gototop js-top">
-		<a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
-	</div>
-	
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Stellar Parallax -->
-	<script src="js/jquery.stellar.min.js"></script>
-	<!-- Easy PieChart -->
-	<script src="js/jquery.easypiechart.min.js"></script>
-	<!-- Google Map -->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
-	<script src="js/google_map.js"></script>
-	
-	<!-- Main -->
-	<script src="js/main.js"></script>
+      <div class="card">
+        <h3>Research Intern</h3>
+        <span class="meta">Max Planck Institute for Software Systems (MPI-SWS)</span>
+        <span class="meta">Aug 2022 – Jan 2023</span>
+        <p>I conducted research in the field of Reinforcement Learning, specifically focused on detecting misinformation. This research was carried out in collaboration with the Machine Teaching Group at the Max Planck Institute for Software Systems (MPI-SWS) under the guidance of Adish Singla.</p>
+      </div>
 
-	</body>
+      <div class="card">
+        <h3>Undergraduate Research Assistant</h3>
+        <span class="meta">Federal University of Minas Gerais (UFMG)</span>
+        <span class="meta">Jan 2021 – Feb 2022</span>
+        <p>Research in Explainable Machine Learning for Fake News Detection and Polarization on Social Media under professor Fabrício Benevenuto.</p>
+      </div>
+
+      <div class="card">
+        <h3>Software Engineer Intern</h3>
+        <span class="meta">Mobile Solution Technology</span>
+        <span class="meta">Oct 2020 – Sept 2021</span>
+        <p>I have been involved in the development of optical character recognition (OCR) software using computer vision techniques.</p>
+      </div>
+
+      <div class="card">
+        <h3>Undergraduate Research Assistant</h3>
+        <span class="meta">Federal University of Minas Gerais (UFMG)</span>
+        <span class="meta">Apr 2018 – Jan 2021</span>
+        <p>I have gained experience in the field of Data Science and Machine Learning under the guidance of Professor Gisele Lobo Pappa. During this time, I have had the opportunity to work on projects in collaboration with the Brazil Ministry of Health and the Public Ministry of Minas Gerais.</p>
+      </div>
+    </section>
+
+    <!-- ============ PUBLICATIONS ============ -->
+    <section id="publicacoes" class="panel">
+      <p class="eyebrow">Research</p>
+      <h2 class="section-heading">Research</h2>
+      <p class="section-sub">Publications</p>
+
+      <div class="card">
+        <h3>HateBRXplain: A Benchmark Dataset with Human-Annotated Rationales for Explainable Hate Speech Detection in Brazilian Portuguese</h3>
+        <span class="meta">I. Salles, F. Vargas, F. Benevenuto</span>
+        <span class="meta">Proceedings of the 31st International Conference on Computational Linguistics (COLING), 2025</span>
+        <a class="pub-link" href="https://aclanthology.org/2025.coling-main.446/" target="_blank" rel="noopener">Read more →</a>
+      </div>
+
+      <div class="card">
+        <h3>Interpret3C: Interpretable Student Clustering Through Individualized Feature Selection</h3>
+        <span class="meta">I. Salles, P. Mejia-Domenzain, V. Swamy, J. Blackwell, T. Käser</span>
+        <span class="meta">International Conference on Artificial Intelligence in Education, 2024</span>
+        <a class="pub-link" href="https://doi.org/10.1007/978-3-031-64315-6_35" target="_blank" rel="noopener">Read more →</a>
+      </div>
+
+      <div class="card">
+        <h3>Improving Explainable Fact-Checking via Sentence-Level Factual Reasoning</h3>
+        <span class="meta">F. Vargas, I. Salles, D. Alves, A. Agrawal, T. A. S. Pardo, F. Benevenuto</span>
+        <span class="meta">Proceedings of the Seventh Fact Extraction and VERification Workshop (FEVER), 2024</span>
+        <a class="pub-link" href="https://doi.org/10.18653/v1/2024.fever-1.23" target="_blank" rel="noopener">Read more →</a>
+      </div>
+
+      <div class="card">
+        <h3>Detecção Automática de Desinformação Relacionada à Covid-19 no Brasil</h3>
+        <span class="meta">JMM. Couto, I. Salles, B. Pimenta, S. Assis, L. Araújo, JCS. Reis, F. Benevenuto</span>
+        <span class="meta">Anais do XXXVII Simpósio Brasileiro de Bancos de Dados, 2022</span>
+        <a class="pub-link" href="https://doi.org/10.5753/sbbd.2022.224326" target="_blank" rel="noopener">Read more →</a>
+      </div>
+
+      <div class="card">
+        <h3>A Comprehensive Dataset of Brazilian Fact-Checking Stories</h3>
+        <span class="meta">I. Marques, I. Salles, J. MM Couto, B. C Pimenta, S. Assis, J. CS Reis, A. PC da Silva, J. M de Almeida, F. Benevenuto</span>
+        <span class="meta">Journal of Information and Data Management, 2022</span>
+        <a class="pub-link" href="https://sol.sbc.org.br/journals/index.php/jidm/article/view/2354" target="_blank" rel="noopener">Read more →</a>
+      </div>
+
+      <div class="card">
+        <h3>Characterizing Sponsored Content in Facebook and Instagram</h3>
+        <span class="meta">E. A. Martins, I. Salles, F. Benevenuto, O. Goussevskaia</span>
+        <span class="meta">Proceedings of the 33rd ACM Conference on Hypertext and Social Media, 52-63, 2022</span>
+        <a class="pub-link" href="https://dl.acm.org/doi/abs/10.1145/3511095.3531289" target="_blank" rel="noopener">Read more →</a>
+      </div>
+
+      <div class="card">
+        <h3>Viés de Gênero em Biografias da Wikipédia em Português</h3>
+        <span class="meta">I. Salles, G. L. Pappa</span>
+        <span class="meta">Proceedings of the 10th Brazilian Workshop on Social Network Analysis and Mining (BRASNAM), Porto Alegre, SBC, 2021</span>
+        <a class="pub-link" href="https://sol.sbc.org.br/index.php/brasnam/article/view/16142" target="_blank" rel="noopener">Read more →</a>
+      </div>
+
+      <p class="card-group-label">Awards</p>
+
+      <div class="card">
+        <h3>Best Late Breaking Results Award</h3>
+        <span class="meta">AIED, July 2024</span>
+        <span class="meta">Awarded to the publication “Interpret3C: Interpretable Student Clustering Through Individualized Feature Selection”</span>
+      </div>
+
+      <div class="card">
+        <h3>Google Latin America Research Award</h3>
+        <span class="meta">January 2024</span>
+        <span class="meta">Research grant structured as an unrestricted gift — $8,500 USD / R$42,000 BRL</span>
+      </div>
+
+      <div class="card">
+        <h3>Outstanding Paper Honorable Mention</h3>
+        <span class="meta">BRASNAM, July 2021</span>
+        <span class="meta">Awarded to the publication “Viés de Gênero em Biografias da Wikipédia em Português”</span>
+      </div>
+
+      <p class="card-group-label">Other Contributions</p>
+
+      <div class="card plain">
+        <h3>HateBRMoralXplain — dataset annotation</h3>
+        <span class="meta">Contributed to the human annotation of the HateBRMoralXplain dataset (acknowledged contributor, not an author)</span>
+        <span class="meta">In: F. Vargas, J. Trager, D. Alves, M. Guida, S. Thapa, B. Atil, D. Dementieva, A. Smart, A. Agrawal. "Self-Explaining Hate Speech Detection with Moral Rationales." Findings of the Association for Computational Linguistics: ACL 2026</span>
+        <a class="pub-link" href="https://aclanthology.org/2026.findings-acl.1704.pdf" target="_blank" rel="noopener">Read more →</a>
+      </div>
+    </section>
+
+    <!-- ============ HOBBIES ============ -->
+    <section id="hobbies" class="panel">
+
+      <!-- ---- level 1: hobbies overview ---- -->
+      <div class="hobbies-view active" data-view="main">
+        <p class="eyebrow">Outside Work</p>
+        <h2 class="section-heading">Beyond Research</h2>
+        <p class="section-sub">A few things I care about outside of academic work.</p>
+
+        <div class="hobby-grid">
+
+          <button class="hobby-card hobby-card-link" data-goto="hobbies/travel">
+            <div class="hobby-visual">
+              <img src="images/hobbies/travel/sintra-pena-2-thumb.jpg" alt="Pena Palace, Sintra" style="width:100%;height:100%;object-fit:cover;">
+            </div>
+            <div class="hobby-body">
+              <h3>Travel</h3>
+              <p>Lisbon, Sintra, Porto, Paris, Barcelona, Seville &amp; Madrid. Click to see the trip.</p>
+            </div>
+          </button>
+
+          <button class="hobby-card hobby-card-link" data-goto="hobbies/forro">
+            <div class="hobby-visual">
+              <img src="images/hobbies/forro/forro-itaunas-duo-colorful-1.jpg" alt="Dancing forro at TFD Itaunas" style="width:100%;height:100%;object-fit:cover;">
+            </div>
+            <div class="hobby-body">
+              <h3>Forr&oacute; Dance</h3>
+              <p>First place, amateur category, at the Torneio Forr&oacute; Dan&ccedil;a in Ita&uacute;nas, ES. Click to see the video.</p>
+            </div>
+          </button>
+
+        </div>
+      </div>
+
+      <!-- ---- level 2: list of trips ---- -->
+      <div class="hobbies-view" data-view="travel-list">
+        <button class="hobbies-back" data-goto="hobbies">&larr; Back to Outside Work</button>
+        <p class="eyebrow">Travel</p>
+        <h2 class="section-heading">Trips</h2>
+        <p class="section-sub">A few trips I&rsquo;ve documented so far.</p>
+
+        <div class="trip-grid">
+          <button class="trip-card" data-goto="hobbies/travel/spain-portugal-paris">
+            <div class="trip-card-visual">
+              <img src="images/hobbies/travel/sintra-pena-2-thumb.jpg" alt="Pena Palace, Sintra">
+            </div>
+            <div class="trip-card-body">
+              <h3>Spain, Portugal &amp; Paris</h3>
+              <p>16 days, seven cities: my biggest trip abroad so far, and the first purely for vacation.</p>
+            </div>
+          </button>
+        </div>
+      </div>
+
+      <!-- ---- level 3: trip detail ---- -->
+      <div class="hobbies-view" data-view="travel-detail">
+        <button class="hobbies-back" data-goto="hobbies/travel">&larr; Back to Travel</button>
+
+        <div class="travel-post" id="travel-post">
+        <div class="detail-heading-row">
+          <h3 class="travel-post-title">Spain, Portugal &amp; Paris</h3>
+          <span class="detail-date">May 2026</span>
+        </div>
+        <p class="travel-intro">My biggest trip abroad so far: 16 days across seven cities, planned from start to finish and taken with a close friend, the first time I left Brazil for Europe purely on vacation. It was also her birthday and her first trip abroad, which made sharing every one of these places with her even more special. We started in Porto, with its tiled facades and the Clérigos Tower, then Madrid’s Almudena Cathedral and Royal Palace, and on to Seville, the city I was most excited to visit, and it exceeded every expectation: the Moorish gardens of the Real Alcázar felt like walking straight into Game of Thrones, and the Plaza de España was as grand as I’d imagined. Barcelona was a delight too, with the Gothic Quarter and Park Güell, swimming in the Mediterranean again, and seeing the Sagrada Família from the inside. In Paris, Montmartre, my favorite neighborhood there, became my friend’s favorite as well. We closed the trip in Lisbon’s steep, lantern-lit streets and the fairy-tale Pena Palace up in Sintra.</p>
+
+        <p class="travel-city">Porto</p>
+        <div class="travel-gallery">
+          <button data-full="images/hobbies/travel/porto-clerigos-tower.jpg"><img src="images/hobbies/travel/porto-clerigos-tower-thumb.jpg" alt="Clerigos Tower, Porto" loading="lazy"></button>
+          <button data-full="images/hobbies/travel/porto-hillside-houses.jpg"><img src="images/hobbies/travel/porto-hillside-houses-thumb.jpg" alt="Colorful hillside houses in Porto, with the Clerigos Tower in the background" loading="lazy"></button>
+          <button data-full="images/hobbies/travel/porto-market-square.jpg"><img src="images/hobbies/travel/porto-market-square-thumb.jpg" alt="Outdoor market in a Porto square" loading="lazy"></button>
+          <button data-full="images/hobbies/travel/porto-santo-ildefonso-church.jpg"><img src="images/hobbies/travel/porto-santo-ildefonso-church-thumb.jpg" alt="Santo Ildefonso Church, with its blue and white azulejo tiles, Porto" loading="lazy"></button>
+        </div>
+
+        <p class="travel-city">Madrid</p>
+        <div class="travel-gallery">
+          <button data-full="images/hobbies/travel/madrid-almudena-cathedral.jpg"><img src="images/hobbies/travel/madrid-almudena-cathedral-thumb.jpg" alt="Almudena Cathedral facade, Madrid" loading="lazy"></button>
+          <button data-full="images/hobbies/travel/madrid-street-sunset.jpg"><img src="images/hobbies/travel/madrid-street-sunset-thumb.jpg" alt="Madrid street at sunset" loading="lazy"></button>
+          <button data-full="images/hobbies/travel/madrid-royal-palace-aerial.jpg"><img src="images/hobbies/travel/madrid-royal-palace-aerial-thumb.jpg" alt="Aerial view of the Royal Palace of Madrid and its gardens" loading="lazy"></button>
+        </div>
+
+        <p class="travel-city">Seville</p>
+        <div class="travel-gallery">
+          <button data-full="images/hobbies/travel/seville-alcazar.jpg"><img src="images/hobbies/travel/seville-alcazar-thumb.jpg" alt="Reflecting pool at the Real Alcazar, Seville" loading="lazy"></button>
+          <button data-full="images/hobbies/travel/seville-cathedral-rooftop.jpg"><img src="images/hobbies/travel/seville-cathedral-rooftop-thumb.jpg" alt="Rooftop view from Seville Cathedral, with the tiled dome and the city below" loading="lazy"></button>
+          <button data-full="images/hobbies/travel/seville-giralda-night.jpg"><img src="images/hobbies/travel/seville-giralda-night-thumb.jpg" alt="The Giralda tower and Seville Cathedral lit up at night, seen from the Metropol Parasol" loading="lazy"></button>
+          <button data-full="images/hobbies/travel/seville-balcony-flowers.jpg"><img src="images/hobbies/travel/seville-balcony-flowers-thumb.jpg" alt="Balcony overflowing with white petunias in Seville" loading="lazy"></button>
+          <button data-full="images/hobbies/travel/seville-plaza-espana.jpg"><img src="images/hobbies/travel/seville-plaza-espana-thumb.jpg" alt="Plaza de Espana tower and canal, Seville" loading="lazy"></button>
+        </div>
+
+        <p class="travel-city">Barcelona</p>
+        <div class="travel-gallery">
+          <button data-full="images/hobbies/travel/barcelona-gothic-alley.jpg"><img src="images/hobbies/travel/barcelona-gothic-alley-thumb.jpg" alt="Narrow street in the Gothic Quarter, Barcelona" loading="lazy"></button>
+          <button data-full="images/hobbies/travel/barcelona-sunset-street.jpg"><img src="images/hobbies/travel/barcelona-sunset-street-thumb.jpg" alt="Barcelona street at sunset" loading="lazy"></button>
+          <button data-full="images/hobbies/travel/barcelona-park-guell-stairs.jpg"><img src="images/hobbies/travel/barcelona-park-guell-stairs-thumb.jpg" alt="Park Guell staircase and colonnade" loading="lazy"></button>
+          <button data-full="images/hobbies/travel/barcelona-park-guell-window.jpg"><img src="images/hobbies/travel/barcelona-park-guell-window-thumb.jpg" alt="View from a window in Park Guell" loading="lazy"></button>
+          <button data-full="images/hobbies/travel/barcelona-park-guell-gatehouse.jpg"><img src="images/hobbies/travel/barcelona-park-guell-gatehouse-thumb.jpg" alt="Gatehouses at the entrance of Park Guell" loading="lazy"></button>
+        </div>
+
+        <p class="travel-city">Paris</p>
+        <div class="travel-gallery">
+          <button data-full="images/hobbies/travel/paris-eiffel.jpg"><img src="images/hobbies/travel/paris-eiffel-thumb.jpg" alt="Eiffel Tower at night" loading="lazy"></button>
+          <button data-full="images/hobbies/travel/paris-cafe-gisele.jpg"><img src="images/hobbies/travel/paris-cafe-gisele-thumb.jpg" alt="Cafe Gisele on Boulevard Saint-Germain" loading="lazy"></button>
+          <button data-full="images/hobbies/travel/paris-flower-shop.jpg"><img src="images/hobbies/travel/paris-flower-shop-thumb.jpg" alt="Flower shop window in Paris" loading="lazy"></button>
+          <button data-full="images/hobbies/travel/paris-pizza.jpg"><img src="images/hobbies/travel/paris-pizza-thumb.jpg" alt="Pizza and salad at a Paris restaurant" loading="lazy"></button>
+          <button data-full="images/hobbies/travel/paris-sacre-coeur.jpg"><img src="images/hobbies/travel/paris-sacre-coeur-thumb.jpg" alt="Sacre-Coeur Basilica, Montmartre" loading="lazy"></button>
+          <button data-full="images/hobbies/travel/paris-le-saint-jean.jpg"><img src="images/hobbies/travel/paris-le-saint-jean-thumb.jpg" alt="Le Saint Jean cafe, Montmartre" loading="lazy"></button>
+          <button data-full="images/hobbies/travel/paris-maison-rose.jpg"><img src="images/hobbies/travel/paris-maison-rose-thumb.jpg" alt="La Maison Rose restaurant, Montmartre" loading="lazy"></button>
+        </div>
+
+        <p class="travel-city">Lisbon &amp; Sintra</p>
+        <div class="travel-gallery">
+          <button data-full="images/hobbies/travel/lisbon-street.jpg"><img src="images/hobbies/travel/lisbon-street-thumb.jpg" alt="Street in Lisbon at dusk" loading="lazy"></button>
+          <button data-full="images/hobbies/travel/sintra-pena-1.jpg"><img src="images/hobbies/travel/sintra-pena-1-thumb.jpg" alt="Pena Palace terrace, Sintra" loading="lazy"></button>
+          <button data-full="images/hobbies/travel/sintra-pena-2.jpg"><img src="images/hobbies/travel/sintra-pena-2-thumb.jpg" alt="Pena Palace towers, Sintra" loading="lazy"></button>
+        </div>
+        </div>
+      </div>
+
+      <!-- ---- forro: level 2, list ---- -->
+      <div class="hobbies-view" data-view="forro-list">
+        <button class="hobbies-back" data-goto="hobbies">&larr; Back to Outside Work</button>
+        <p class="eyebrow">Forr&oacute; Dance</p>
+        <h2 class="section-heading">Forr&oacute; Dance</h2>
+        <p class="section-sub">Forr&oacute; is the music and dance style I love most and know best. I have been dancing it for over four years, and I currently teach at P&eacute; Descal&ccedil;o, a network of dance schools.</p>
+
+        <p class="travel-intro">Forr&oacute; is a genre of Brazilian music and partner dance that comes from the Northeast of Brazil, closely tied to the Festas Juninas held every June. It is traditionally played by a trio of accordion, zabumba drum and triangle. Today it is popular all over the country, with festivals, dance schools and competitions dedicated to it.</p>
+
+        <div class="trip-grid">
+          <button class="trip-card" data-goto="hobbies/forro/itaunas-tfd">
+            <div class="trip-card-visual">
+              <img src="images/hobbies/forro/forro-itaunas-duo-colorful-1.jpg" alt="Dancing forro at TFD Itaunas">
+            </div>
+            <div class="trip-card-body">
+              <h3>Torneio Forr&oacute; Dan&ccedil;a (TFD) 2025, Ita&uacute;nas</h3>
+              <p>Dancing with Gabriel Galego at Brazil&rsquo;s biggest forr&oacute; festival. We won first place in the amateur category.</p>
+            </div>
+          </button>
+        </div>
+      </div>
+
+      <!-- ---- forro: level 3, detail ---- -->
+      <div class="hobbies-view" data-view="forro-detail">
+        <button class="hobbies-back" data-goto="hobbies/forro">&larr; Back to Forr&oacute; Dance</button>
+
+        <div class="detail-heading-row">
+          <h3 class="travel-post-title">Torneio Forr&oacute; Dan&ccedil;a 2025, Ita&uacute;nas ES</h3>
+          <span class="detail-date">July 2025</span>
+        </div>
+        <p class="travel-intro">Forr&oacute; is one of my favorite things to dance. In 2025 I competed with my partner Gabriel Galego at the Torneio Forr&oacute; Dan&ccedil;a (TFD) in Ita&uacute;nas, Esp&iacute;rito Santo, the biggest forr&oacute; festival in Brazil, and we won first place in the amateur category.</p>
+
+        <p class="travel-intro">The competition runs over three days. The first stage is choreography, and five pairs move on from it. The second stage is improvisation, which narrows the field down to three pairs. The final is improvisation again, danced to two songs drawn on the spot, one slow and one fast, and it decides the podium. The video below is from our choreography stage, dancing to &ldquo;Ningu&eacute;m Segura o Nosso Amor&rdquo; by Mestrinho and Mariana Aydar.</p>
+
+        <div class="video-embed">
+          <iframe src="https://www.youtube.com/embed/bJrPiJN-ClY" title="Isadora Salles and Gabriel Galego at Torneio Forro Danca 2025, Itaunas ES" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
+        </div>
+
+        <div class="about-gallery-scroll">
+          <button data-full="images/hobbies/forro/forro-itaunas-black-dress.jpg" data-caption="Torneio Forró Dança — Itaúnas, 2025 — Day 1, choreography stage"><img src="images/hobbies/forro/forro-itaunas-black-dress.jpg" alt="Dancing in a black dress at TFD Itaunas" loading="lazy"></button>
+          <button data-full="images/hobbies/forro/forro-itaunas-duo-colorful-2.jpg" data-caption="Torneio Forró Dança — Itaúnas, 2025 — Day 1, choreography stage"><img src="images/hobbies/forro/forro-itaunas-duo-colorful-2.jpg" alt="Dip during a forro routine at TFD Itaunas" loading="lazy"></button>
+          <button data-full="images/hobbies/forro/forro-itaunas-yellow-hug-1.jpg" data-caption="Torneio Forró Dança — Itaúnas, 2025 — Day 2, improvisation stage"><img src="images/hobbies/forro/forro-itaunas-yellow-hug-1.jpg" alt="Close embrace in a yellow sunflower dress at TFD Itaunas" loading="lazy"></button>
+          <button data-full="images/hobbies/forro/forro-itaunas-yellow-hug-2.jpg" data-caption="Torneio Forró Dança — Itaúnas, 2025 — Day 2, improvisation stage"><img src="images/hobbies/forro/forro-itaunas-yellow-hug-2.jpg" alt="Dancing embrace on stage in a yellow sunflower dress at TFD Itaunas" loading="lazy"></button>
+          <button data-full="images/hobbies/forro/forro-itaunas-yellow-jump.jpg" data-caption="Torneio Forró Dança — Itaúnas, 2025 — Day 2, improvisation stage"><img src="images/hobbies/forro/forro-itaunas-yellow-jump.jpg" alt="Mid-air spin during a forro routine at TFD Itaunas" loading="lazy"></button>
+          <button data-full="images/hobbies/forro/forro-itaunas-yellow-twirl.jpg" data-caption="Torneio Forró Dança — Itaúnas, 2025 — Day 2, improvisation stage"><img src="images/hobbies/forro/forro-itaunas-yellow-twirl.jpg" alt="Twirling in a yellow sunflower dress at TFD Itaunas" loading="lazy"></button>
+          <button data-full="images/hobbies/forro/forro-itaunas-yellow-detail.jpg" data-caption="Torneio Forró Dança — Itaúnas, 2025 — Day 2, improvisation stage"><img src="images/hobbies/forro/forro-itaunas-yellow-detail.jpg" alt="Detail of the sunflower-decorated dress at TFD Itaunas" loading="lazy"></button>
+          <button data-full="images/hobbies/forro/forro-itaunas-duo-colorful-1.jpg" data-caption="Torneio Forró Dança — Itaúnas, 2025 — Day 3, final"><img src="images/hobbies/forro/forro-itaunas-duo-colorful-1.jpg" alt="Dancing forro on stage at TFD Itaunas" loading="lazy"></button>
+          <button data-full="images/hobbies/forro/forro-itaunas-portrait.jpg" data-caption="Torneio Forró Dança — Itaúnas, 2025 — Day 3, final"><img src="images/hobbies/forro/forro-itaunas-portrait.jpg" alt="Portrait smiling backstage at TFD Itaunas" loading="lazy"></button>
+          <button data-full="images/hobbies/forro/forro-itaunas-group-hosts.jpg" data-caption="Torneio Forró Dança — Itaúnas, 2025 — Awards, 1st place amateur category, with mentor André Goulart"><img src="images/hobbies/forro/forro-itaunas-group-hosts.jpg" alt="With the event hosts at TFD Itaunas" loading="lazy"></button>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contato" class="panel">
+      <p class="eyebrow">Get in touch</p>
+      <h2 class="section-heading">Contact</h2>
+      <p class="section-sub">Feel free to reach out.</p>
+
+      <div class="card plain">
+        <p>The best way to reach me is by <a href="mailto:isadora.alves.salles@gmail.com">email</a>. You can also find me on the links below.</p>
+      </div>
+
+      <div class="contact-row">
+        <a class="icon-badge on-light" href="https://github.com/isadorasalles" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 16 16" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg></a>
+        <a class="icon-badge on-light" href="https://www.linkedin.com/in/isadora-salles-b8942016b/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M0 1.15C0 .51.53 0 1.18 0h13.65C15.47 0 16 .51 16 1.15v13.7c0 .64-.53 1.15-1.18 1.15H1.18C.53 16 0 15.49 0 14.85V1.15zM4.94 13.4V6.17H2.54v7.23h2.4zM3.74 5.19c.84 0 1.36-.55 1.36-1.25-.02-.71-.52-1.25-1.34-1.25-.82 0-1.36.54-1.36 1.25 0 .7.52 1.25 1.33 1.25h.01zM13.55 13.4V9.35c0-2.22-1.19-3.25-2.77-3.25-1.28 0-1.85.7-2.16 1.19v-1.02h-2.4c.03.68 0 7.23 0 7.23h2.4V9.36c0-.22.02-.43.08-.59.17-.43.57-.88 1.24-.88.87 0 1.22.66 1.22 1.63v3.88h2.39z"/></svg></a>
+        <a class="icon-badge on-light" href="https://scholar.google.com/citations?user=NpixF2MAAAAJ&hl=en" target="_blank" rel="noopener" aria-label="Google Scholar"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3zm0 13.5L4.24 12 12 7.5l7.76 4.5L12 16.5zM5 13.18v4.34c0 1.1 3.14 2.48 7 2.48s7-1.38 7-2.48v-4.34l-7 3.82-7-3.82z"/></svg></a>
+      </div>
+
+      <div class="btn-row">
+        <a class="btn" href="CV_Isadora.pdf" target="_blank" rel="nofollow noopener">Download CV</a>
+      </div>
+
+      <p class="footnote">© 2026 Isadora Salles</p>
+    </section>
+
+  </main>
+</div>
+
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" aria-label="Close">&times;</button>
+  <button class="lightbox-nav lightbox-prev" aria-label="Previous photo">&#8249;</button>
+  <button class="lightbox-nav lightbox-next" aria-label="Next photo">&#8250;</button>
+  <div class="lightbox-body">
+    <img id="lightboxImg" src="" alt="">
+    <p class="lightbox-caption" id="lightboxCaption"></p>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
 </html>
-
