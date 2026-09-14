@@ -207,7 +207,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 }
 
 .section-heading { font-size: 2.1rem; margin-bottom: .3rem; }
-.section-sub { color: var(--text-soft); margin-bottom: 2.25rem; font-size: 1.05rem; max-width: 60ch; }
+.section-sub { color: var(--text-soft); margin-bottom: 2.25rem; font-size: 1.05rem; max-width: 60ch; text-align: justify; }
 
 /* ---------- cards ---------- */
 
@@ -232,7 +232,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   margin-bottom: .1rem;
 }
 
-.card p { margin: .7rem 0 0; color: #3d3a34; }
+.card p { margin: .7rem 0 0; color: #3d3a34; text-align: justify; }
 
 .card .pub-link {
   display: inline-flex;
@@ -263,7 +263,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 .exp-details[open] .label-more { display: none; }
 .exp-details[open] .label-less { display: inline; }
 
-.exp-details p { margin-top: .6rem; }
+.exp-details p { margin-top: .6rem; text-align: justify; }
 
 .card-group-label {
   font-size: .78rem;
@@ -457,6 +457,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   color: #3d3a34;
   max-width: 68ch;
   margin-bottom: 2rem;
+  text-align: justify;
 }
 
 .travel-city {
