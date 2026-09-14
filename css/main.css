@@ -243,6 +243,28 @@ ul { margin: 0; padding: 0; list-style: none; }
   font-weight: 600;
 }
 
+.exp-details { margin-top: .7rem; }
+
+.exp-details summary {
+  cursor: pointer;
+  color: var(--accent);
+  font-weight: 600;
+  font-size: .88rem;
+  list-style: none;
+}
+
+.exp-details summary::-webkit-details-marker { display: none; }
+.exp-details summary::marker { content: ''; }
+
+.exp-details summary::after { content: " \2192"; }
+.exp-details[open] summary::after { content: " \2191"; }
+
+.exp-details .label-less { display: none; }
+.exp-details[open] .label-more { display: none; }
+.exp-details[open] .label-less { display: inline; }
+
+.exp-details p { margin-top: .6rem; }
+
 .card-group-label {
   font-size: .78rem;
   text-transform: uppercase;
