@@ -33,7 +33,7 @@
       if (parts[1] === 'travel') {
         hobbiesView = parts[2] ? 'travel-detail' : 'travel-list';
       } else if (parts[1] === 'forro') {
-        hobbiesView = parts[2] ? 'forro-detail' : 'forro-list';
+        hobbiesView = parts[2] === 'red-necklace-exam' ? 'forro-red-exam' : (parts[2] ? 'forro-detail' : 'forro-list');
       }
       document.querySelectorAll('#hobbies .hobbies-view').forEach(function (v) {
         v.classList.toggle('active', v.getAttribute('data-view') === hobbiesView);
